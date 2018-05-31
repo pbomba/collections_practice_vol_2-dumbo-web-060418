@@ -90,9 +90,9 @@ def organize_schools(schools)
     puts schoolName
     location = locationHash[:location]
     if output[location]
-    
+      output[location] << schoolName
     else
-      output[location] = []
+      output[location] = [schoolName]
     end
   end
 end
