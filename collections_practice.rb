@@ -72,7 +72,9 @@ def merge_data(keys, data)
   keys.each do |person|
     puts "+++++++++++++++++++++++++++++"
     firstName = person[:first_name]
-    puts data[0][firstName]
+    attributes = data[0][firstName]
+    attributes.first_name = firstName
+    puts attributes
     puts "+++++++++++++++++++++++++++++"
   end
 end
