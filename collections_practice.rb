@@ -68,7 +68,7 @@ end
 
 def merge_data(keys, data)
   keys.each do |k, v|
-    data.select {|first_name|  data[]}
+    data.find {|x| x}
   end
 
 end
