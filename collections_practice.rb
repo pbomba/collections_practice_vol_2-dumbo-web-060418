@@ -67,8 +67,10 @@ end
 
 
 def merge_data(keys, data)
-  puts keys
-
+  #puts keys
+  keys.each do |hsh|
+    puts hsh
+  end
 end
 
 def find_cool(cool)
