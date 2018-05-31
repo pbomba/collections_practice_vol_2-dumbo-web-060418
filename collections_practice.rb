@@ -3,12 +3,12 @@ require "pry"
 def begins_with_r(array)
   newArray = []
   i = 0
-                                      while i < array.length
-                                        word = array[i]
-                                        isTrue = word.start_with?("r")
-                                        newArray << isTrue
-                                        i += 1
-                                      end
+            while i < array.length
+              word = array[i]
+              isTrue = word.start_with?("r")
+              newArray << isTrue
+              i += 1
+            end
   if newArray.include?(false)
    return false
   else
