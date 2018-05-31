@@ -77,8 +77,6 @@ end
 
 def organize_schools(schools)
 end
-array.each {|x| x+1} do
-end
 
  #   {[{:first_name => "blake"}, {:first_name => "ashley"}]}
 
