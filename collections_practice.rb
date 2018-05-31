@@ -73,7 +73,7 @@ def merge_data(keys, data)
     puts "+++++++++++++++++++++++++++++"
     firstName = person[:first_name]
     attributes = data[0][firstName]
-    attributes.first_name = firstName
+    attributes[:first_name] = firstName
     puts attributes
     puts "+++++++++++++++++++++++++++++"
   end
