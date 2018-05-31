@@ -71,7 +71,7 @@ def merge_data(keys, data)
   hsh = data[0]
   keys.each do |person|
     firstName = person[:first_name]
-    attributes = data[0][firstName]
+    attributes = hsh[firstName]
     attributes[:first_name] = firstName
     newArray << attributes
   end
