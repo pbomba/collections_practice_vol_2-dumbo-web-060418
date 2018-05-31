@@ -84,7 +84,10 @@ end
 
 def organize_schools(schools)
   
-  
+  output = {}
+  schools.each |schoolHash|
+    schoolName = schoolHash
+  end
   
 end
 
