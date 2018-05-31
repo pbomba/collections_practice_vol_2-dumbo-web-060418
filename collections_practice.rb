@@ -70,7 +70,7 @@ def merge_data(keys, data)
   hsh = data[0]
   keys.each do |person|
     puts "+++++++++++++++++++++++++++++"
-    puts person
+    puts person[:first_name]
     puts "+++++++++++++++++++++++++++++"
   end
 end
