@@ -79,7 +79,7 @@ def merge_data(keys, data)
       newerArray << [newArray.slice(i)]
    # i += 1
  # end
-  return newerArray
+  return newArray
 end
 
 def find_cool(cool)
