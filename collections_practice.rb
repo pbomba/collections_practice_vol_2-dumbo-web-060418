@@ -93,5 +93,6 @@ def organize_schools(schools)
       output[location] = [schoolName]
     end
   end
+  return output
 end
 
