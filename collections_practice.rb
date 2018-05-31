@@ -80,6 +80,6 @@ end
 def organize_schools(schools)
 end
 
- #   {[{:first_name => "blake"}, {:first_name => "ashley"}]}
+ #   [{:first_name => "blake"}, {:first_name => "ashley"}]
 
   #  [{"blake" => { :awesomeness => 10, :height => "74", :last_name => "johnson"}, "ashley" => { :awesomeness => 9, :height => 60, :last_name => "dubs"}}]
