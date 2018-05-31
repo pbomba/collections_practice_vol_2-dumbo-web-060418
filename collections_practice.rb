@@ -67,19 +67,9 @@ end
 
 
 def merge_data(keys, data)
-    i = 0
-    newArray = []
-    newerArray = []
- #  while i < keys.length
-      firstName = keys[i][:first_name]
-      attributes = data[0][firstName]
-      newArray.push(keys[i])
-      newArray.push(attributes)
-      newArray[i] = newArray[i].merge(newArray[i+1])
-      newerArray << [newArray.slice(i)]
-   # i += 1
- # end
-  return newArray
+  
+
+  return
 end
 
 def find_cool(cool)
