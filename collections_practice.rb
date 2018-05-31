@@ -85,6 +85,7 @@ end
 def organize_schools(schools)
   
   output = {}
+  puts schools.pluck("location")
   schools.each do |schoolName, locationHash|
     location = locationHash[:location]
     if output[location]
