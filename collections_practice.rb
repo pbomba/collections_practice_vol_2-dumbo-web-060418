@@ -89,7 +89,7 @@ def organize_schools(schools)
     
     puts "------------------------------"
     puts schoolName
-    puts locationHash
+    puts locationHash[:location]
     puts "------------------------------"
   end
   
