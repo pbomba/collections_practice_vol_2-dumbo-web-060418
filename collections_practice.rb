@@ -68,9 +68,8 @@ end
 
 def merge_data(keys, data)
   hsh = data[0]
-  keys.each do |k, v|
-    puts k
-    puts v
+  keys.each do |person|
+    puts person
   end
 end
 
