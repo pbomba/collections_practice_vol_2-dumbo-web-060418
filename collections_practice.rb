@@ -79,9 +79,7 @@ def merge_data(keys, data)
 end
 
 def find_cool(cool)
-  cool.select {|hsh| hsh[]} 
-    :temperature == "cool"  
-  
+  return cool.select {|hsh| hsh[:temperature] == "cool"} 
 end
 
 def organize_schools(schools)
