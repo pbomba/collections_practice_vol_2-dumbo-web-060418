@@ -86,12 +86,14 @@ def organize_schools(schools)
   
   output = {}
   schools.each do |schoolName, locationHash|
-    
-    puts "------------------------------"
-    puts schoolName
-    puts locationHash[:location]
-    puts "------------------------------"
-  end
   
+    puts schoolName
+    location = locationHash[:location]
+    if output[location]
+    
+    else
+      output[location] = []
+    end
+  end
 end
 
