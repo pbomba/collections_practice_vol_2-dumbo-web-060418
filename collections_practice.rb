@@ -67,7 +67,7 @@ end
 
 
 def merge_data(keys, data)
-puts keys
+  puts keys
 
 end
 
