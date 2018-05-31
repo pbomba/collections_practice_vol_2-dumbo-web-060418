@@ -70,12 +70,10 @@ def merge_data(keys, data)
   newArray = []
   hsh = data[0]
   keys.each do |person|
-    puts "+++++++++++++++++++++++++++++"
     firstName = person[:first_name]
     attributes = data[0][firstName]
     attributes[:first_name] = firstName
     newArray << attributes
-    puts "+++++++++++++++++++++++++++++"
   end
   return newArray
 end
