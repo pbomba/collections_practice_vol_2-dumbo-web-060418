@@ -69,7 +69,7 @@ end
 def merge_data(keys, data)
   #puts keys
   keys.each do |hsh|
-    puts hsh
+    puts hsh[:first_name]
   end
 end
 
