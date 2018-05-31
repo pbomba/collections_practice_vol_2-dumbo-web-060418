@@ -86,8 +86,6 @@ def organize_schools(schools)
   
   output = {}
   schools.each do |schoolName, locationHash|
-  
-    puts schoolName
     location = locationHash[:location]
     if output[location]
       output[location] << schoolName
