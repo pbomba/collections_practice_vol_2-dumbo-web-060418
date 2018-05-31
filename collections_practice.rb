@@ -67,6 +67,7 @@ end
 
 
 def merge_data(keys, data)
+  newArray = []
   hsh = data[0]
   keys.each do |person|
     puts "+++++++++++++++++++++++++++++"
