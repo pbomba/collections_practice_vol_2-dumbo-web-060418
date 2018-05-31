@@ -68,8 +68,10 @@ end
 
 def merge_data(keys, data)
   keys.each do |k, v|
+    puts " rwgethrhrnrtyntynty=="
     puts k
     puts v
+    puts "rgerigonerogeirgneoibneb"
   end
 
 end
