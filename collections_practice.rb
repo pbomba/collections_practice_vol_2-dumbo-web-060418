@@ -68,7 +68,7 @@ end
 
 def merge_data(keys, data)
   keys.each do |k, v|
-    data.find {|x| x[] == v}
+    data[v]
   end
 
 end
