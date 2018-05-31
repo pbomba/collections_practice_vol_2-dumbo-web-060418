@@ -70,7 +70,8 @@ def merge_data(keys, data)
   #puts keys
   keys.each do |hsh|
     first_name = hsh[:first_name]
-    data.find {|x| x.first_name}
+    stuff = data.find {|x| x.first_name}
+    puts stuff
   end
 end
 
