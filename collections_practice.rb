@@ -88,6 +88,7 @@ def organize_schools(schools)
   schools.each do |schoolName, locationHash|
     
     puts "------------------------------"
+    puts schoolName
     puts locationHash
     puts "------------------------------"
   end
