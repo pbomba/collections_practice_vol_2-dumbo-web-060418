@@ -74,9 +74,10 @@ def merge_data(keys, data)
     firstName = person[:first_name]
     attributes = data[0][firstName]
     attributes[:first_name] = firstName
-    puts attributes
+    newArray << attributes
     puts "+++++++++++++++++++++++++++++"
   end
+  return newArray
 end
 
 def find_cool(cool)
