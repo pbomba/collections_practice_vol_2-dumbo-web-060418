@@ -17,7 +17,7 @@ def begins_with_r(array)
 end
 
 def contain_a(array)
-   newArray = []
+  newArray = []
   i = 0
               while i < array.length
                 word = array[i]
@@ -26,7 +26,7 @@ def contain_a(array)
                   end
                 i += 1
               end
-return newArray
+  return newArray
 end
 
 def first_wa(array)
