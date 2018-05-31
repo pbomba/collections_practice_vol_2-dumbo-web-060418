@@ -86,7 +86,7 @@ def organize_schools(schools)
   
   output = {}
   schools.each do |schoolHash|
-    schoolName = schoolHash.keys
+    schoolName = schoolHash
     puts "------------------------------"
     puts schoolName
     puts "------------------------------"
